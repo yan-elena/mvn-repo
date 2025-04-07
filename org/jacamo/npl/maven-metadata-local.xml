@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>org.jacamo</groupId>
+  <groupId>org.regjacamo</groupId>
   <artifactId>npl</artifactId>
   <versioning>
-    <latest>0.8</latest>
-    <release>0.8</release>
+    <latest>0.8.1</latest>
+    <release>0.8.1</release>
     <versions>
-      <version>0.8</version>
+      <version>0.8.1</version>
     </versions>
-    <lastUpdated>20250407075501</lastUpdated>
+    <lastUpdated>20250407172150</lastUpdated>
   </versioning>
 </metadata>
