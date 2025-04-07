@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jacamo",
+    "module": "npl",
+    "version": "0.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 23,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.jason-lang",
+          "module": "jason-interpreter",
+          "version": {
+            "requires": "3.3.0"
+          },
+          "excludes": [
+            {
+              "group": "net.sf.ingenias",
+              "module": "jade"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "npl-0.8.jar",
+          "url": "npl-0.8.jar",
+          "size": 95957,
+          "sha512": "380b0b1bc99ccc4e145fc73622db3c5f4774fb6370f742c1af316bbad0bcc87a2c4d67388a389ebc1b484b4419db64aef3747d47175251899a68aca636617c36",
+          "sha256": "3f14e23807cd763e2dacddc3cecb4ab70be813d745cd3ad431561bef58926797",
+          "sha1": "b49333e8cec931c2b3dd1ba9905f3f3ca71efc2f",
+          "md5": "bd65aa245887b2856f699362527a2f47"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 23,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.json",
+          "module": "javax.json-api",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "org.glassfish",
+          "module": "javax.json",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "io.github.jason-lang",
+          "module": "jason-interpreter",
+          "version": {
+            "requires": "3.3.0"
+          },
+          "excludes": [
+            {
+              "group": "net.sf.ingenias",
+              "module": "jade"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "npl-0.8.jar",
+          "url": "npl-0.8.jar",
+          "size": 95957,
+          "sha512": "380b0b1bc99ccc4e145fc73622db3c5f4774fb6370f742c1af316bbad0bcc87a2c4d67388a389ebc1b484b4419db64aef3747d47175251899a68aca636617c36",
+          "sha256": "3f14e23807cd763e2dacddc3cecb4ab70be813d745cd3ad431561bef58926797",
+          "sha1": "b49333e8cec931c2b3dd1ba9905f3f3ca71efc2f",
+          "md5": "bd65aa245887b2856f699362527a2f47"
+        }
+      ]
+    }
+  ]
+}
