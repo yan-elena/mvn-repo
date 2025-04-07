@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jacamo",
+    "module": "sai",
+    "version": "0.5.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 23,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.antlr",
+          "module": "antlr4",
+          "version": {
+            "requires": "4.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sai-0.5.5.jar",
+          "url": "sai-0.5.5.jar",
+          "size": 317854,
+          "sha512": "6f3ddfa25060a72f5db2bd768e9b2555131d007a79a8c9c0ca835e17b589f9e9f0a842990bb9aaf1953ec77f37198143f11e0686cde0f127a4d287143ef211bd",
+          "sha256": "224753d91cb3d90520aa991b6aa824251c4bdbc0befb7a8bfff6e79dbf758c02",
+          "sha1": "17d58791d0538a97280b1e2cdad6743623c79e3d",
+          "md5": "efbae580d07d8d0bd0d9a2780c4dc158"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 23,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jason",
+          "module": "jason",
+          "version": {
+            "requires": "3.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "moise",
+          "version": {
+            "requires": "1.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "npl",
+          "version": {
+            "requires": "0.8"
+          }
+        },
+        {
+          "group": "org.jacamo",
+          "module": "cartago",
+          "version": {
+            "requires": "3.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jacamo",
+          "module": "jaca",
+          "version": {
+            "requires": "3.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "javax.json",
+          "module": "javax.json-api",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "org.antlr",
+          "module": "antlr4",
+          "version": {
+            "requires": "4.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sai-0.5.5.jar",
+          "url": "sai-0.5.5.jar",
+          "size": 317854,
+          "sha512": "6f3ddfa25060a72f5db2bd768e9b2555131d007a79a8c9c0ca835e17b589f9e9f0a842990bb9aaf1953ec77f37198143f11e0686cde0f127a4d287143ef211bd",
+          "sha256": "224753d91cb3d90520aa991b6aa824251c4bdbc0befb7a8bfff6e79dbf758c02",
+          "sha1": "17d58791d0538a97280b1e2cdad6743623c79e3d",
+          "md5": "efbae580d07d8d0bd0d9a2780c4dc158"
+        }
+      ]
+    }
+  ]
+}
