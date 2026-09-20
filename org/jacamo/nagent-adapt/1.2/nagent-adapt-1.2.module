@@ -27,11 +27,11 @@
         {
           "name": "nagent-adapt-1.2.jar",
           "url": "nagent-adapt-1.2.jar",
-          "size": 71774,
-          "sha512": "8d27596c6a29594f7706fe95c57b920adf104806e85839e5651c36c20ca58bcebcc9e52f8cfe831d42f16514781af6de3db1b545ca75dd18bdc75379c428b74e",
-          "sha256": "e63dae59d36657417bcf11b20229c9420bf4492945c17fe2464de468fbdaea46",
-          "sha1": "9b717e98a909fedf6abcd8215f140def09ed5008",
-          "md5": "f11f08480922f81dbb65df07bc1e32df"
+          "size": 72096,
+          "sha512": "98e27869725a0a6ef4f58e00ad5504433b2b85e99232395e5dc7963ebebb8f0030dc134d70c29ace4bfe439350ce75b63732eb69360942db53a46c3d5e0333e3",
+          "sha256": "cfebd363104b78b51ea2c32ce7aba7983bb10e17eaf53c0d9d1e3ff49b8a84cb",
+          "sha1": "b99410b738cfda54cbf15c3ff7a734eb2e18bcaa",
+          "md5": "e4d73b2a1e698c731697170ebe606c7e"
         }
       ]
     },
@@ -64,11 +64,11 @@
         {
           "name": "nagent-adapt-1.2.jar",
           "url": "nagent-adapt-1.2.jar",
-          "size": 71774,
-          "sha512": "8d27596c6a29594f7706fe95c57b920adf104806e85839e5651c36c20ca58bcebcc9e52f8cfe831d42f16514781af6de3db1b545ca75dd18bdc75379c428b74e",
-          "sha256": "e63dae59d36657417bcf11b20229c9420bf4492945c17fe2464de468fbdaea46",
-          "sha1": "9b717e98a909fedf6abcd8215f140def09ed5008",
-          "md5": "f11f08480922f81dbb65df07bc1e32df"
+          "size": 72096,
+          "sha512": "98e27869725a0a6ef4f58e00ad5504433b2b85e99232395e5dc7963ebebb8f0030dc134d70c29ace4bfe439350ce75b63732eb69360942db53a46c3d5e0333e3",
+          "sha256": "cfebd363104b78b51ea2c32ce7aba7983bb10e17eaf53c0d9d1e3ff49b8a84cb",
+          "sha1": "b99410b738cfda54cbf15c3ff7a734eb2e18bcaa",
+          "md5": "e4d73b2a1e698c731697170ebe606c7e"
         }
       ]
     }
